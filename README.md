@@ -17,14 +17,3 @@ Neighborly is a platform that connects job posters with local job seekers, offer
 3. **Request jobs** and get notified upon acceptance.
 4. **Complete tasks** and leave reviews.
 
-## Project Management
-
-You can track our project progress here: [GitHub Project Board](https://github.com/users/mohammed-saalim/projects/2/views/1)
-
-
-## License
-[MIT](LICENSE)
-
----
-
-For more information, please contact [mkartapi@depaul.edu](mailto:mkartapi@depaul.edu).
