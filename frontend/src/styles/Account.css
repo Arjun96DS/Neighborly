@@ -1,0 +1,76 @@
+/* Account.css */
+.account-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #4f46e5, #7c3aed, #ec4899);
+  }
+  
+  .account-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2d2d2d;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .account-options ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .account-options li {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: left;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .account-options li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .profile-info {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .profile-info p {
+    margin-bottom: 10px;
+  }
+  
+  .logout {
+    margin-top: 20px;
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+  }
+  

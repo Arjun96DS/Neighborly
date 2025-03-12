@@ -1,0 +1,28 @@
+{
+  "name": "neighborly",
+  "version": "1.0.0",
+  "description": "Neighborly is a platform that connects job posters with local job seekers, offering a seamless way to post, search, and request tasks. Inspired by services like TaskRabbit, Neighborly aims to foster community connections while providing secure and personalized user experiences.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammed-saalim/Neighborly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammed-saalim/Neighborly/issues"
+  },
+  "homepage": "https://github.com/mohammed-saalim/Neighborly#readme",
+  "dependencies": {
+    "@babel/plugin-transform-class-properties": "^7.25.9",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^3.0.1",
+    "rimraf": "^6.0.1"
+  }
+}

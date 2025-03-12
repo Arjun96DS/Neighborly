@@ -1,0 +1,83 @@
+/* dashboard.css */
+
+/* Container for the dashboard */
+.dashboard-container {
+    display: flex;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Sidebar Navigation */
+  .sidebar {
+    width: 25%;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border-right: 1px solid #ddd;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .sidebar li.active {
+    background-color: #d1e7ff;
+    font-weight: bold;
+  }
+  
+  /* Main Content Section */
+  .content {
+    width: 75%;
+    padding: 15px;
+  }
+  
+  .profile-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .profile-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .profile-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .profile-card p {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  
+  /* Button Styled Profile Card */
+  .button-card {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .button-card:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  

@@ -6,7 +6,9 @@ import Navbar from "./components/common/Navbar";
 import Footer from "./components/common/Footer";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
+import Register from "./pages/Register";
 import PostJob from "./pages/PostJob"; 
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
@@ -14,15 +16,17 @@ function App() {
       <CssBaseline /> {/* Ensures consistent baseline styles */}
       <Router>
         <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
-        <Navbar />
+          <Navbar />
           <main style={{ flex: 1 }}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/post-job" element={<PostJob />} /> {/* ✅ Add PostJob route */}
-        </Routes>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/register" element={<Register />} />
+              <Route path="/post-job" element={<PostJob />} />
+              <Route path="/dashboard" element={<Dashboard />} />
+            </Routes>
           </main>
-        <Footer />
+          <Footer />
         </div>
       </Router>
     </ThemeProvider>
@@ -30,3 +34,12 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
